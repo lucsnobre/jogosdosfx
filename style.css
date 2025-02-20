@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 37px;
+}
+
+#galeria{
+    padding-top: 16px;
+    display: columns;
+    columns: 5;
+}
+#galeria img{
+    width: 100%;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgb(82, 82, 82);
+    transition: transform 0.5s ease-in-out;
+}
+
+#id{
+    border-radius: 10px;
+}
+
+#galeria img:hover{
+    transform: scale(1.2);
+}
+
+#jogo{
+    margin-left: 750px;
+    border-radius: 25px;
+    transition: border-color 0.4s, border-radius 0.4s;
+    padding: 8px 12px;
+    font-size: 17px;
+    box-shadow: 1px 2px 2px rgb(138, 138, 138);
+}
+
+#pesquisar{
+    padding: 8px 12px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: white;
+    transition: background-color 0.4s, border-radius 0.4s;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 2px rgb(138, 138, 138);
+}
+
+#jogo:hover{
+    background-color: rgb(221, 221, 221);
+    transition: 0.4s;
+    border-radius: 6.7px;
+}
+
+#pesquisar:hover{
+    border-radius:6.7px ;
+    transition: 0.4s;
+    background-color: rgb(221, 221, 221);
+    
+}
